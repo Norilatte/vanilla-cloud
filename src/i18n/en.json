@@ -9,9 +9,33 @@
   "footer": "Site created by student Krivopust A. A.",
   "download": "Download price list",
   "contactPhone": "Phone: +7 988 993 30 94",
+
+  "news": {
+    "title1": "We are preparing to open!",
+    "text1": "The pastry shop \"Vanilla Cloud\" will soon open its doors. We are in the final stage of preparation and look forward to meeting you!",
+    "title2": "Concept developed",
+    "text2": "We are creating a cozy place with natural pastries, coffee, and a home-like atmosphere. The name \"Vanilla Cloud\" reflects the lightness and sweetness of every dessert.",
+    "title3": "Website is ready",
+    "text3": "You are on our official website! Here you can explore the menu, follow the news, and soon — place orders online.",
+    "title4": "Menu — in development",
+    "text4": "The planned menu includes: éclairs, macarons, cupcakes, coffee, and custom desserts."
+  },
+
+  "plannedMenuNote": "Below is the planned menu, which will be available after opening:",
+
   "tableHeader": {
     "product": "Product",
     "price": "Price",
     "download": "Download user guide"
+  },
+  "home": {
+  "welcomeTitle": "Welcome!",
+  "welcomeText": "You are on the website of our future pastry shop 'Vanilla Cloud'. Here you can check out the menu, promotions and the latest news. Thank you for your interest in our project!"
+}, 
+
+ "about": {
+    "intro": "Our names are Viktoria Karpushina and Alexandra Krivopust. We are students at Southern Federal University. This website is our mockup for launching our own bakery \"Vanilla Cloud\" in Rostov-on-Don in the future.",
+    "goal": "We strive to create a warm and cozy place where everyone can enjoy quality pastries, natural coffee, and a soulful atmosphere."
   }
+
 }

@@ -2,7 +2,7 @@
   "name": "vanilla-cloud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Norilatte/vanilla-cloud.git",
+  "homepage": "https://Norilatte.github.io/vanilla-cloud",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

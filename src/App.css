@@ -1,94 +1,177 @@
+/* === СБРОС === */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #222;
 }
 
+/* === ОБЁРТКА === */
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  transition: all 0.3s ease;
 }
 
+/* === ХЕДЕР === */
 .header {
-  background-color: #e4ecf5;
+  background-color: #e3effc;
   padding: 1rem;
-  transition: all 0.3s ease;
-}
-
-.header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.nav {
-  margin-top: 0.5rem;
+nav.nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
 
+nav.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #083b77;
+}
+
+.logo-img {
+  height: 60px;
+}
+
+/* === ОСНОВНАЯ СЕТКА === */
 .main {
   display: flex;
   flex: 1;
-  min-height: 70vh;
-  transition: all 0.3s ease;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .left, .right {
-  width: 20%;
-  background-color: #f4f4f4;
+  flex: 1;
+  max-width: 250px;
+  background-color: #eef4fa;
   padding: 1rem;
-  transition: all 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .center {
-  width: 60%;
-  padding: 2rem;
+  flex: 3;
   background-color: #fff;
-  transition: all 0.3s ease;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+/* === ФУТЕР === */
 .footer {
-  background-color: #d0dfea;
+  background-color: #cfe2f3;
   padding: 1rem;
   text-align: center;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
+  margin-top: 2rem;
 }
 
-.section-nav p, .tags span {
-  margin-bottom: 0.5rem;
-}
-
-.section-banner img,
-.tag-banner img {
-  width: 100%;
-  max-width: 180px;
-  margin: 10px auto;
+/* === ОБЩИЕ === */
+img {
+  max-width: 100%;
+  border-radius: 8px;
   display: block;
-  border-radius: 6px;
-  transition: transform 0.3s ease;
+  margin: 0 auto 1rem;
 }
 
-.section-banner img:hover,
-.tag-banner img:hover {
-  transform: scale(1.05);
+h2, h3 {
+  color: #111;
 }
 
-@media screen and (max-width: 800px) {
+select {
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+/* === СТИЛИ ТАБЛИЦЫ ДЛЯ УСЛУГ === */
+.services-page {
+  text-align: center;
+}
+
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.services-table th,
+.services-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.services-table th {
+  background-color: #e4ecf5;
+}
+
+.services-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.services-table tr:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+/* === АДАПТИВ === */
+@media screen and (max-width: 1024px) {
   .main {
     flex-direction: column;
+    align-items: stretch;
   }
 
   .left, .center, .right {
+    max-width: 100%;
     width: 100%;
+    margin-bottom: 1rem;
   }
 
-  .nav {
+  nav.nav {
     flex-direction: column;
+    align-items: center;
   }
+
+  .header {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav.nav a {
+    font-size: 0.9rem;
+  }
+
+  .logo-img {
+    height: 40px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #084d85;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #063862;
 }

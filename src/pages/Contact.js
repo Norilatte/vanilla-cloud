@@ -1,14 +1,16 @@
-// === src/pages/Contact.js ===
 import { useTranslation } from 'react-i18next';
+import './PageLayout.css';
 
 function Contact() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="page">
-      <h2>{i18n.language === 'ru' ? 'Обратная связь' : 'Contact'}</h2>
-      <p>{t('contactPhone')}</p>
-      <p>{i18n.language === 'ru' ? 'Электронная почта: ' : 'Email: '}krivopust@sfedu.ru</p>
+      <main className="content">
+        <h2>{t('nav.contact')}</h2>
+        <p>{t('contactPhone')}</p>
+        <p>Email: krivopust@sfedu.ru</p>
+      </main>
     </div>
   );
 }

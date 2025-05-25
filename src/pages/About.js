@@ -1,13 +1,16 @@
 import { useTranslation } from 'react-i18next';
+import './PageLayout.css';
 
 function About() {
-  const { i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="page">
-      <h2>{i18n.language === 'ru' ? 'Об авторе' : 'About'}</h2>
-      <p>{i18n.language === 'ru' ? 'Нас зовут Карпушина Виктория и Кривопуст Александра, мы студенты Южного Федерального Университета. Этот сайт является нашим макетом для открытия собственной пекарни "Ванильное облако" в Ростове-на-Дону в будущем.' : 'We are Viktoria Karpushina and Aleksandra Krivopust, students of Southern Federal University. This website is our prototype for opening a future bakery "Vanilla Cloud" in Rostov-on-Don.'}</p>
-      <p>{i18n.language === 'ru' ? 'Мы стремимся создать тёплое и уютное место, где каждый сможет насладиться качественной выпечкой, натуральным кофе и душевной атмосферой.' : 'We aim to create a warm and cozy place where everyone can enjoy high-quality pastries, natural coffee, and a soulful atmosphere.'}</p>
+      <main className="content">
+        <h2>{t('nav.about')}</h2>
+        <p>{t('about.intro')}</p>
+        <p>{t('about.goal')}</p>
+      </main>
     </div>
   );
 }
