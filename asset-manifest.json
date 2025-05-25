@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Norilatte/vanilla-cloud.git/static/css/main.83bb1a9e.css",
+    "main.js": "/Norilatte/vanilla-cloud.git/static/js/main.d09a72f4.js",
+    "index.html": "/Norilatte/vanilla-cloud.git/index.html",
+    "main.83bb1a9e.css.map": "/Norilatte/vanilla-cloud.git/static/css/main.83bb1a9e.css.map",
+    "main.d09a72f4.js.map": "/Norilatte/vanilla-cloud.git/static/js/main.d09a72f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83bb1a9e.css",
+    "static/js/main.d09a72f4.js"
+  ]
+}
