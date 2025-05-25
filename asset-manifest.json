@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vanilla-cloud/static/css/main.b148127f.css",
-    "main.js": "/vanilla-cloud/static/js/main.bcdccf78.js",
+    "main.js": "/vanilla-cloud/static/js/main.23dc6e89.js",
     "index.html": "/vanilla-cloud/index.html",
     "main.b148127f.css.map": "/vanilla-cloud/static/css/main.b148127f.css.map",
-    "main.bcdccf78.js.map": "/vanilla-cloud/static/js/main.bcdccf78.js.map"
+    "main.23dc6e89.js.map": "/vanilla-cloud/static/js/main.23dc6e89.js.map"
   },
   "entrypoints": [
     "static/css/main.b148127f.css",
-    "static/js/main.bcdccf78.js"
+    "static/js/main.23dc6e89.js"
   ]
 }
