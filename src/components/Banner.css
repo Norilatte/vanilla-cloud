@@ -1,0 +1,22 @@
+.banner {
+  background-color: #f0f5fa;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.banner-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+  .banner-img {
+    max-width: 100%;
+  }
+}

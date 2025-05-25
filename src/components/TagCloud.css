@@ -1,0 +1,32 @@
+.tag-cloud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tags {
+  text-align: center;
+}
+
+.tags h4 {
+  margin-bottom: 0.5rem;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #e0e8f0;
+  color: #333;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 4px;
+  font-size: 0.85rem;
+}
+
+.tag-banner img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,17 @@
+{
+  "title": "Pastry Shop \"Vanilla Cloud\"",
+  "nav": {
+    "news": "News",
+    "about": "About",
+    "contact": "Contact",
+    "services": "Products & Services"
+  },
+  "footer": "Site created by student Krivopust A. A.",
+  "download": "Download price list",
+  "contactPhone": "Phone: +7 988 993 30 94",
+  "tableHeader": {
+    "product": "Product",
+    "price": "Price",
+    "download": "Download user guide"
+  }
+}
