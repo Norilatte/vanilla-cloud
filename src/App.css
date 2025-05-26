@@ -4,6 +4,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7fa;
   color: #222;
+  overflow-x: hidden; /* чтобы не было горизонтальной прокрутки */
 }
 
 /* === ОБЁРТКА === */
@@ -11,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;      
 }
 
 /* === ХЕДЕР === */
@@ -71,7 +73,9 @@ nav.nav a {
   background-color: #cfe2f3;
   padding: 1rem;
   text-align: center;
-  margin-top: 2rem;
+  font-size: 0.9rem;
+  width: 100vw;        /* растянуть по ширине экрана */
+  box-sizing: border-box;
 }
 
 /* === ОБЩИЕ === */

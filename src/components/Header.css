@@ -1,6 +1,8 @@
 .header {
   background-color: #e3effc;
   padding: 1rem;
+  width: 100vw;        /* растянуть по ширине экрана */
+  box-sizing: border-box;
 }
 
 .header-inner {
