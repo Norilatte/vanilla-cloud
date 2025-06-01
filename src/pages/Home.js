@@ -12,7 +12,7 @@ function Home() {
 
         <p>
           <a
-            href={`${process.env.PUBLIC_URL}/files/vanilla-cloud-guide.pdf`}
+            href={`${process.env.PUBLIC_URL}/files/vanilla-cloud-guide.docx`}
             download
             className="download-link"
           >

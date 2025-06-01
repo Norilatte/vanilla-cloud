@@ -21,6 +21,11 @@
   padding: 5px 10px;
   margin: 4px;
   font-size: 0.85rem;
+  transition: transform 0.3s ease;
+}
+
+.tags span:hover {
+  transform: scale(1.2);
 }
 
 .tag-banner img {
@@ -30,3 +35,12 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
+.pulse-img {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}

@@ -20,6 +20,9 @@
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 89vh;
 }
 
 .sidebar-right {
@@ -40,4 +43,5 @@
   .sidebar-right {
     width: 100%;
   }
+
 }
