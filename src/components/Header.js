@@ -14,7 +14,7 @@ function Header() {
   <div className="header-inner">
     <div className="logo-block">
       <Link to="/">
-        <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} alt="Logo" className="logo-img" />
+        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="Logo" className="logo-img" />
       </Link>
     </div>
     <nav className="nav">
