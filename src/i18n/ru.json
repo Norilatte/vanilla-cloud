@@ -9,6 +9,11 @@
   "footer": "Сайт разработан студенткой Кривопуст А. А.",
   "download": "Скачать прайс-лист",
   "contactPhone": "Телефон: +7 988 993 30 94",
+  "contactWishLabel": "Ваши пожелания:",
+  "contactWishPlaceholder": "Введите текст, например: «Хотелось бы больше безглютеновых десертов»",
+  "contactSendButton": "Отправить",
+  "contactThankYou": "Спасибо за ваше сообщение!",
+
 
   "news": {
     "title1": "Мы готовимся к открытию!",
@@ -22,6 +27,17 @@
   },
 
   "plannedMenuNote": "Ниже представлено планируемое меню, которое будет доступно после открытия:",
+
+  "products": {
+  "eclair": "Эклер",
+  "cappuccino": "Капучино",
+  "tiramisu": "Тирамису",
+  "macaronSet": "Макарун (набор)",
+  "napoleonCake": "Торт «Наполеон»",
+  "americano": "Американо",
+  "cheesecake": "Чизкейк",
+  "chocolateCroissant": "Круассан с шоколадом"
+},
 
   "tableHeader": {
     "product": "Продукт",

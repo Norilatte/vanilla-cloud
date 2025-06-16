@@ -14,6 +14,10 @@
   grid-area: left;
 }
 
+.services-page {
+  text-align: left; 
+}
+
 .main-content {
   grid-area: main;
   background-color: #fff;

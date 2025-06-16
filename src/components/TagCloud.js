@@ -17,8 +17,8 @@ function TagCloud() {
           className="pulse-img"
         />
       </div>
+
     </div>
   );
 }
-
 export default TagCloud;

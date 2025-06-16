@@ -9,6 +9,11 @@
   "footer": "Site created by student Krivopust A. A.",
   "download": "Download price list",
   "contactPhone": "Phone: +7 988 993 30 94",
+  "contactWishLabel": "Your suggestions:",
+  "contactWishPlaceholder": "Enter your message, e.g. 'We’d love more gluten-free desserts!'",
+  "contactSendButton": "Send",
+  "contactThankYou": "Thank you for your message!",
+
 
   "news": {
     "title1": "We are preparing to open!",
@@ -22,6 +27,17 @@
   },
 
   "plannedMenuNote": "Below is the planned menu, which will be available after opening:",
+
+  "products": {
+  "eclair": "Eclair",
+  "cappuccino": "Cappuccino",
+  "tiramisu": "Tiramisu",
+  "macaronSet": "Macaron (set)",
+  "napoleonCake": "Napoleon Cake",
+  "americano": "Americano",
+  "cheesecake": "Cheesecake",
+  "chocolateCroissant": "Chocolate Croissant"
+},
 
   "tableHeader": {
     "product": "Product",
