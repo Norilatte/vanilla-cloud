@@ -5,7 +5,7 @@ function Services() {
   const { t } = useTranslation();
 
   const products = [
-    { name: 'Эклер', price: '190₽' },
+    { name: 'Эклер', price: '120₽' },
     { name: 'Капучино', price: '260₽' },
     { name: 'Тирамису', price: '250₽' },
     { name: 'Макарун (набор)', price: '500₽' },
